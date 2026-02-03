@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>formuláře</title>
+  </head>
+  <body>
+    <h1>Formuláře</h1>
+    
+    <form>
+    <fieldset>
+    <legend>textové vstupy</legend>
+      <label>Jméno</label>
+      <input type="text"name="jmeno" placeholder="Vadim"> <br>
+      
+      <label>Příjmení</label>
+      <input type="text"name="prijmeni" placeholder="Smiljanksy">  <br>
+      
+      <label>Email</label>
+      <input type="email"name="Email" placeholder="vadim@gmail.ru">     <br>
+      
+      <label>Telefoníren</label>
+      <input type="phone"name="Telefoníren" placeholder="+7 676 676 676">     <br>
+      
+      <label for="heslo">Hesílko</label>
+      <input name="heslo" type="password" placeholder="Min. 8 znaků" minlength="8">    <br>
+      
+     
+      </fieldset>
+      <fieldset>
+         <legend>Čísla Datum Čas</legend>
+         
+         
+         
+         <label>Kolik je ti let kulišáku</label>
+         <input name="vek" type="number" man="5" max="428" step="5">   <br>
+         
+         
+          <label>Datumijáš</label>
+         <input name="date" type="date">  <br>
+         
+          <label>Time Machine</label>
+         <input name="cas" type="time">    <br>
+         
+           <label>Barviška</label>
+         <input name="barva" type="color">   <br>
+         
+         <label>Posuvné měřítko</label>
+         <input name="posuvnik" type="range">    
+       </fieldset>
+       
+        <fieldset>
+        
+        
+        
+        
+        
+        
+        
+        <fieldset>
+          <legend>Výběrové řízení</legend>
+          <label>Třída</label>
+          <select>
+          <option value="">-Vybírej-</option>
+          <option value="1A">A</option>
+          <option value="1B">B</option>
+          <option value="1C">C</option>
+          </select>   <br>
+          <label>Domovina</label>
+          <input name="zeme" placeholder="Napiš Domovinu....." list="zeme-list">
+          <datalist id="zeme-list">
+          <option value="">-Vybírej-</option>
+          <option value="Čr"></option>
+          <option value="Severní Maďarsko(Slovensko)"></option>
+          <option value="Uganda"></option>
+          <option value="Srbsko"></option>
+          </datalist>   <br>
+          
+          <label>Propaganda</label>
+          <input type="checkbox" name="propaganda" value="program"> <br>
+          
+          <label>Pohlavár</label><br>
+          
+          
+          
+          
+          
+           </fieldset>
+       
+       
+       
+        <button type="submit">Odeslat</button>
+      
+      
+    </form>
+  </body>
+</html>
